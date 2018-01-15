@@ -1,0 +1,15 @@
+datetime:
+import datetime
+strptime : convertir un string to datetime.
+
+Dans pandas il y a une méthode pour les datetime, to_datetime à privilégier.
+
+par exemple on peut faire:
+colonne['machin'].resample('M')
+Pour faire un group by mois.
+On peut spécifier si on veut plutôt une somme, une moyenne etc.
+
+pct_change pandas, permet de voir la variation entre une periode donnée
+(une date) et la date qui la précède.
+
+plot pandas
